@@ -4,36 +4,95 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>HomePage</title>
-
+  <title>Home Page</title>
+<link rel="stylesheet" href="styles/style.css">
 <!--bootstrap-->
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
-
-
-
+<!--fontawesome-->
+<script src="https://kit.fontawesome.com/022c62a2f2.js" crossorigin="anonymous"></script>
+<!--google fonts-->
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Biryani:wght@300;400;700;800;900&family=Righteous&display=swap" rel="stylesheet"> 
+<!--favicon-->
+<link rel="icon" type="image/png" href="images/favicon.png">
 </head>
 <body>
-  <!--HEADER -->
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="#">D&D by Littek</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-        <div class="navbar-nav">
-          <a class="nav-link active" aria-current="page" href="#">Home</a>
-          <a class="nav-link" href="#">Reglas Generales</a>
-          <a class="nav-link" href="#">Jugador</a>
-          <a class="nav-link" href="#">Game Master</a>
-        </div>
-      </div>
+
+  <!--CORPO-->
+<div class="homepage row container-fluid d-flex justify-content-center">
+
+  <div class="card" style="width: 18rem;">
+    <img src="images/forrest.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <a href="reglas generales.html" class="btn btn-dark btn-lg">GENERALES</a>
+      <!--<h5 class="card-title">REGLAS GENERALES</h5>-->
+      <p class="card-text">Aca encontraras info con respecto a: 
+        <ul>
+          <a href="pages/reglas generales/Clasificacion de lenguajes.html"><li>Lenguajes</li></a>
+          <a href="pages/reglas generales/combate.html"><li>Conbate</li></a>
+          <a href="pages/reglas generales/condiciones y estados.html"><li>Condiciones y estados</li></a>
+          <a href="pages/reglas generales/curacion dano y muerte.html"><li>Curacion, dano y muerte</li></a>
+          <a href="pages/reglas generales/descansos y actividades varias.html"><li>Descansos y actividades varias</li></a>
+          <a href="pages/reglas generales/efectos de la edad.html"><li>Efectos de la edad</li></a>
+          <a href="pages/reglas generales/fabricacion.html"><li>Fabricacion</li></a>
+          <a href="pages/reglas generales/multiclase y razas hibridas.html"><li>Multiclase y razas hibridas</li></a>
+          <a href="pages/reglas generales/reglas de hechizos.html"><li>Reglas de hechizos</li></a>
+          <a href="pages/reglas generales/vision e iluminacion.html"><li>Vision e iluminacion</li></a>
+        </ul></p>
+      
     </div>
-  </nav>
+  </div>
+
+  <div class="card" style="width: 18rem;">
+    <img src="images/jugador.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <a href="jugador.html" class="btn btn-dark btn-lg">JUGADOR</a>
+      <!--<h5 class="card-title">JUGADOR</h5>-->
+      <p class="card-text">Aca encontraras info con respecto a: 
+        <ul>
+          <a href="pages/jugador/clases/index.html"><li>Clases</li></a>
+          <a href="pages/jugador/dotes/index.html"><li>Dotes</li></a>
+          <a href="pages/jugador/hechizos/index.html"><li>Hechizos</li></a>
+          <a href="pages/jugador/razas/index.html"> <li>Razas</li></a>
+          <a href="pages/jugador/recursos/index.html"><li>Recursos</li></a>
+          <a href="pages/jugador/questionario y reglas de creacion.html"><li>Un cuestionario y reglas de creacion del personaje</li></a>
+        </ul></p>
+      
+    </div>
+  </div>
+
+  <div class="card" style="width: 18rem;">
+    <img src="images/master.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <a href="game master.html" class="btn btn-dark btn-lg">GAME MASTER</a>
+      <!--<h5 class="card-title">GAME MASTER</h5>-->
+      <p class="card-text">Aca encontraras info con respecto a: 
+        <ul>
+          <a href="pages/game master/clases de prueba/index.html"><li>Clases de prueba</li></a>
+          <a href="pages/game master/condiciones especiales/index.html"><li>Condiciones especiales</li></a>
+          <a href="pages/game master/curse transformations/index.html"><li>Curse transformations</li></a>
+          <a href="pages/game master/detalles adicinoales de fabricacion.html"><li>Detalles adicionales de fabricacion</li></a>
+          <a href="pages/game master/equipo de asedio.html"><li>Equipo de asedio</li></a>
+          <a href="pages/game master/herramientas.html"><li>Herramientas</li></a>
+          <a href="pages/game master/precios varios.html"><li>Precios varios</li></a>
+          <a href="pages/game master/reglas de objetos.html"><li>Reglas de objetos</li></a>
+          <a href="pages/game master/tatuajes magicos.html"><li>Tatuajes magicos</li></a>
+          <a href="pages/game master/trampas.html"><li>Trampas</li></a>
+          <a href="pages/game master/vehiculos y montaturas.html"><li>Vehiculos y montaturas</li></a>
+          <a href="pages/game master/wild magic table.html"><li>Wils magic table</li></a>
+        </ul></p>
+      
+    </div>
+  </div>
 
 
+</div>
 
-<!--bootstrap-->
+<div class="firma">
+  produced by <a href="">Emmanuele Durante</a>
+</div>
+
+  <!--bootstrap-->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
 
 </body>
